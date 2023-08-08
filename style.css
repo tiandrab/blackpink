@@ -1,0 +1,91 @@
+/* official colors are pink -> #ff94e0 and black */
+body {
+    background-color: #ff94e0;
+    margin: 0px;
+}
+
+.logo {
+    display: block;
+    width: 25%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+hr {
+    background-color: black;
+    width: 100%;
+    height: 12px;
+    border: 1px solid black; 
+
+}
+
+.group-photo {
+    width: 35%;
+    height: 400px;
+    margin-top: 10px;
+    border: 2px solid black;
+    border-radius: 30px;
+
+}
+
+.intro-box {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Roboto Slab';
+    font-size: 14pt;
+}
+
+.info-box {
+    width: 35%;
+    padding-left: 20px;
+    padding-right: 20px; 
+    background-color: black;
+    color: #ff94e0;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 30px;
+}
+
+.pink-logo {
+    margin-top:25px;
+    width: 25%;
+}
+
+.group-box {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.member-box {
+    text-align: center;
+    font-family: 'Roboto Slab';
+}
+
+.member-image {
+    width: 220px;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.member-info {
+    border-radius: 40px;
+}
+
+.sns-logo-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.sns-icons {
+    width: 200px;
+    height: 200px;
+    border: 2px solid white;
+    border-radius: 30px;
+}
